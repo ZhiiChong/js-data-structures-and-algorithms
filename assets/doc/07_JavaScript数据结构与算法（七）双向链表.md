@@ -36,7 +36,7 @@
 - `update(position, element)` 修改指定位置上的元素。
 - `removeAt(position)` 从链表中的删除指定位置的元素。
 - `remove(element)` 从链表删除指定的元素。
-- `isEmpty()` 如果链表中不包含任何元素，返回 `trun`，如果链表长度大于 0 则返回 `false`。
+- `isEmpty()` 如果链表中不包含任何元素，返回 `true`，如果链表长度大于 0 则返回 `false`。
 - `size()` 返回链表包含的元素个数，与数组的 `length` 属性类似。
 - `toString()` 由于链表项使用了 Node 类，就需要重写继承自 JavaScript 对象默认的 `toString` 方法，让其只输出元素的值。
 - `forwardString()` 返回正向遍历节点字符串形式。
